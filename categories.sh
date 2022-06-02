@@ -187,10 +187,11 @@ GoNotoCurrent=(
     "NotoSansNushuSubset-Regular.ttf" # Not exactly contemporary use but just 402 glyphs
     "NotoSansMiao-Regular.ttf"
     # Common for all scripts
-    "NotoSansSymbols-Regular.ttf"
-    "NotoSansSymbols2-Regular.ttf"
-    "NotoSansMath-Regular.ttf"
-    "NotoMusic-Regular.ttf"
+    # NOTE: ハングル追加のために、記号、数学記号、音楽記号を除外
+    # "NotoSansSymbols-Regular.ttf"
+    # "NotoSansSymbols2-Regular.ttf"
+    # "NotoSansMath-Regular.ttf"
+    # "NotoMusic-Regular.ttf"
 )
 
 GoNotoAfricaMiddleEast=(
