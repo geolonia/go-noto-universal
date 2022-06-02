@@ -233,10 +233,13 @@ create_korean_hangul_subset() {
         return
     fi
 
-    codepoints+="U+1100-11FF," # Hangul jamo
-    codepoints+="U+3130-318F," # Hangul compatibility jamo
-    codepoints+="U+A960-A97F," # Hangul jamo extended-A
-    codepoints+="U+D7B0-D7FF," # Hangul jamo extended-B
+    codepoints+="U+AC00-D7FF,"
+
+    # TODO: ハングルジャムを追加するか確認する
+    # codepoints+="U+1100-11FF," # Hangul jamo
+    # codepoints+="U+3130-318F," # Hangul compatibility jamo
+    # codepoints+="U+A960-A97F," # Hangul jamo extended-A
+    # codepoints+="U+D7B0-D7FF," # Hangul jamo extended-B
 
     cd cache/
 
